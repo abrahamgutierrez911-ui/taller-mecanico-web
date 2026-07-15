@@ -9,7 +9,7 @@ const business = {
   address: "Av. Principal 123, Ciudad de México",
   hours: "Lunes a sábado, 9:00 a.m. a 6:00 p.m.",
   email: "contacto@gfmechanic.com",
-  mapsEmbedUrl: "https://www.google.com/maps?q=Ciudad%20de%20Mexico&output=embed",
+  mapsEmbedUrl: "https://maps.app.goo.gl/XfhsZ3WobUwa6dG36?g_st=iw",
   facebook: "https://www.facebook.com/",
   instagram: "https://www.instagram.com/",
   defaultMessage: "Hola, quiero agendar una cita para mi auto."
