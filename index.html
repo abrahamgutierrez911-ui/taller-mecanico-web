@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Taller mecánico automotriz profesional. Servicio preventivo, cambio de aceite, frenos, suspensión, diagnóstico con escáner y reparación general."
+  />
+  <title>GF Mechanic & Aesthetic | Taller mecánico automotriz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="assets/logo-gf-mechanic-aesthetic.png" alt="Logo GF Mechanic & Aesthetic" class="brand__logo" />
+      <span class="brand__name" data-business="name">GF Mechanic & Aesthetic</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+      <a class="nav-cta" data-link="whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__content reveal">
+        <p class="eyebrow">Taller mecánico automotriz</p>
+        <h1 data-business="name">GF Mechanic & Aesthetic</h1>
+        <p class="hero__lead">
+          Mecánica, estética y mantenimiento profesional para que tu auto salga seguro,
+          afinado y listo para el camino.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" data-link="whatsapp" href="#" target="_blank" rel="noopener">
+            Contáctanos por WhatsApp
+          </a>
+          <a class="btn btn--secondary" href="#contacto">Agenda tu cita</a>
+        </div>
+        <div class="hero__badges" aria-label="Beneficios principales">
+          <span>Presupuesto claro</span>
+          <span>Garantía en trabajos</span>
+          <span>Entrega puntual</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="section__intro reveal">
+        <p class="eyebrow">Servicios</p>
+        <h2>Soluciones completas para tu vehículo</h2>
+        <p>
+          Atendemos mantenimiento, diagnóstico y reparación con procesos claros,
+          refacciones de calidad y comunicación directa.
+        </p>
+      </div>
+
+      <!-- Edita, agrega o elimina tarjetas de servicio aquí. -->
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-shield"></use></svg>
+          </span>
+          <h3>Servicio preventivo</h3>
+          <p>Revisión general para detectar fallas antes de que se conviertan en reparaciones costosas.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-oil"></use></svg>
+          </span>
+          <h3>Cambio de aceite</h3>
+          <p>Aceite y filtros adecuados para proteger el motor y mantener el rendimiento.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-brake"></use></svg>
+          </span>
+          <h3>Frenos</h3>
+          <p>Inspección y reparación de balatas, discos, líquido y sistema hidráulico.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-suspension"></use></svg>
+          </span>
+          <h3>Suspensión</h3>
+          <p>Diagnóstico de amortiguadores, bujes, rótulas y componentes de dirección.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-scan"></use></svg>
+          </span>
+          <h3>Diagnóstico con escáner</h3>
+          <p>Lectura de códigos, análisis de sensores y orientación clara sobre la falla.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-spark"></use></svg>
+          </span>
+          <h3>Afinación</h3>
+          <p>Mantenimiento para mejorar encendido, consumo, respuesta y desempeño del motor.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-paint"></use></svg>
+          </span>
+          <h3>Hojalatería y pintura</h3>
+          <p>Corrección estética, igualación de color y acabados cuidados para tu vehículo.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg><use href="#icon-wrench"></use></svg>
+          </span>
+          <h3>Reparación general</h3>
+          <p>Atención integral para fallas mecánicas, eléctricas y mantenimiento correctivo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="nosotros">
+      <div class="about__text reveal">
+        <p class="eyebrow">Sobre nosotros</p>
+        <h2>Confianza, experiencia y atención personalizada</h2>
+        <p>
+          En <strong data-business="name">GF Mechanic & Aesthetic</strong> cuidamos cada auto como si fuera propio.
+          Nuestro equipo combina experiencia técnica, trato honesto y refacciones de calidad
+          para entregar soluciones duraderas.
+        </p>
+        <p>
+          Te explicamos el diagnóstico, el presupuesto y el tiempo estimado antes de iniciar,
+          para que siempre sepas qué necesita tu vehículo.
+        </p>
+        <a class="btn btn--primary" href="#contacto">Solicita tu diagnóstico</a>
+      </div>
+
+      <div class="about__panel reveal" aria-label="Datos del taller">
+        <img src="assets/logo-gf-mechanic-aesthetic.png" alt="GF Mechanic & Aesthetic" />
+        <div class="about__stats">
+          <span><strong>+10</strong> años de experiencia</span>
+          <span><strong>100%</strong> presupuestos claros</span>
+          <span><strong>Calidad</strong> en refacciones</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="section__intro reveal">
+        <p class="eyebrow">Por qué elegirnos</p>
+        <h2>Servicio honesto de principio a fin</h2>
+      </div>
+
+      <div class="why-grid">
+        <article class="why-item reveal">
+          <span>01</span>
+          <h3>Mecánicos capacitados</h3>
+          <p>Personal preparado para atender fallas comunes y diagnósticos especializados.</p>
+        </article>
+        <article class="why-item reveal">
+          <span>02</span>
+          <h3>Presupuestos claros</h3>
+          <p>Te explicamos cada trabajo antes de avanzar, sin sorpresas al entregar.</p>
+        </article>
+        <article class="why-item reveal">
+          <span>03</span>
+          <h3>Entrega puntual</h3>
+          <p>Organizamos el trabajo para respetar tiempos y mantenerte informado.</p>
+        </article>
+        <article class="why-item reveal">
+          <span>04</span>
+          <h3>Atención honesta</h3>
+          <p>Recomendamos lo que tu auto realmente necesita, con comunicación directa.</p>
+        </article>
+        <article class="why-item reveal">
+          <span>05</span>
+          <h3>Garantía en trabajos</h3>
+          <p>Respaldamos nuestros servicios con procesos responsables y revisión final.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+      <div class="section__intro reveal">
+        <p class="eyebrow">Galería</p>
+        <h2>Trabajos, taller y vehículos atendidos</h2>
+        <p>Estos espacios están listos para reemplazarse por fotos reales del taller.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item reveal">
+          <img src="assets/hero-taller-automotriz.png" alt="Área de servicio del taller" />
+          <figcaption>Área de servicio</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="assets/hero-taller-automotriz.png" alt="Diagnóstico automotriz con equipo profesional" />
+          <figcaption>Diagnóstico con escáner</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="assets/hero-taller-automotriz.png" alt="Vehículo listo para entrega" />
+          <figcaption>Entrega de trabajos</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="section__intro reveal">
+        <p class="eyebrow">Testimonios</p>
+        <h2>Clientes que recomiendan nuestro trabajo</h2>
+      </div>
+
+      <div class="testimonial-grid">
+        <article class="testimonial-card reveal">
+          <p class="rating" aria-label="Calificación 5 de 5">★★★★★</p>
+          <p>"Me explicaron la falla con claridad, respetaron el presupuesto y mi auto quedó excelente."</p>
+          <strong>Carlos R.</strong>
+        </article>
+        <article class="testimonial-card reveal">
+          <p class="rating" aria-label="Calificación 5 de 5">★★★★★</p>
+          <p>"Muy buena atención. Me entregaron a tiempo y el servicio fue honesto desde el inicio."</p>
+          <strong>María L.</strong>
+        </article>
+        <article class="testimonial-card reveal">
+          <p class="rating" aria-label="Calificación 5 de 5">★★★★★</p>
+          <p>"Excelente diagnóstico. Encontraron el problema rápido y me dieron opciones claras."</p>
+          <strong>Daniel P.</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="contact__info reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Agenda tu cita hoy</h2>
+        <p>
+          Escríbenos por WhatsApp, llámanos o envía el formulario. Te responderemos con
+          disponibilidad y una primera orientación.
+        </p>
+
+        <div class="contact-list">
+          <p><strong>Dirección:</strong> <span data-business="address">Av. Principal 123, Ciudad de México</span></p>
+          <p><strong>Teléfono:</strong> <a data-link="phone" href="#"><span data-business="phone">+52 55 0000 0000</span></a></p>
+          <p><strong>WhatsApp:</strong> <a data-link="whatsapp" href="#" target="_blank" rel="noopener"><span data-business="whatsappLabel">+52 55 0000 0000</span></a></p>
+          <p><strong>Horario:</strong> <span data-business="hours">Lunes a sábado, 9:00 a.m. a 6:00 p.m.</span></p>
+          <p><strong>Correo:</strong> <a data-link="email" href="#"><span data-business="email">contacto@gfmechanic.com</span></a></p>
+        </div>
+
+        <div class="social-links" aria-label="Redes sociales">
+          <a data-link="facebook" href="#" target="_blank" rel="noopener">Facebook</a>
+          <a data-link="instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" name="phone" placeholder="Tu teléfono" required />
+
+        <label for="service">Servicio</label>
+        <select id="service" name="service" required>
+          <option value="">Selecciona un servicio</option>
+          <option>Servicio preventivo</option>
+          <option>Cambio de aceite</option>
+          <option>Frenos</option>
+          <option>Suspensión</option>
+          <option>Diagnóstico con escáner</option>
+          <option>Afinación</option>
+          <option>Hojalatería y pintura</option>
+          <option>Reparación general</option>
+        </select>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="5" placeholder="Cuéntanos qué necesita tu auto" required></textarea>
+
+        <button class="btn btn--primary" type="submit">Enviar por WhatsApp</button>
+        <p class="form-note">El formulario abrirá WhatsApp con tu mensaje listo para enviar.</p>
+      </form>
+
+      <div class="map reveal">
+        <iframe
+          data-map-frame
+          title="Mapa del taller"
+          src="https://www.google.com/maps?q=Ciudad%20de%20Mexico&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" data-link="whatsapp" href="#" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg aria-hidden="true"><use href="#icon-chat"></use></svg>
+  </a>
+
+  <footer class="site-footer">
+    <p><span data-business="name">GF Mechanic & Aesthetic</span> © <span id="year"></span>. Taller mecánico automotriz.</p>
+  </footer>
+
+  <svg aria-hidden="true" class="svg-sprite">
+    <symbol id="icon-shield" viewBox="0 0 24 24">
+      <path d="M12 3 19 6v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3Z" />
+      <path d="m9 12 2 2 4-5" />
+    </symbol>
+    <symbol id="icon-oil" viewBox="0 0 24 24">
+      <path d="M8 4h8l-1 4H9L8 4Z" />
+      <path d="M9 8h6l4 8a3 3 0 0 1-3 4H8a3 3 0 0 1-3-4l4-8Z" />
+      <path d="M12 12v4" />
+    </symbol>
+    <symbol id="icon-brake" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="7" />
+      <circle cx="12" cy="12" r="2" />
+      <path d="M12 5v3M12 16v3M5 12h3M16 12h3" />
+    </symbol>
+    <symbol id="icon-suspension" viewBox="0 0 24 24">
+      <path d="M7 4h10" />
+      <path d="M9 4v4l6 2v4l-6 2v4" />
+      <path d="M15 4v4M15 16v4" />
+    </symbol>
+    <symbol id="icon-scan" viewBox="0 0 24 24">
+      <rect x="5" y="5" width="14" height="14" rx="2" />
+      <path d="M9 9h6M9 13h3M15 15h.01" />
+    </symbol>
+    <symbol id="icon-spark" viewBox="0 0 24 24">
+      <path d="M13 2 4 14h7l-1 8 10-13h-7l0-7Z" />
+    </symbol>
+    <symbol id="icon-paint" viewBox="0 0 24 24">
+      <path d="M5 13 16 2l6 6-11 11H5v-6Z" />
+      <path d="M15 3l6 6" />
+    </symbol>
+    <symbol id="icon-wrench" viewBox="0 0 24 24">
+      <path d="M14 7a5 5 0 0 0 6 6l-7 7a3 3 0 0 1-4-4l7-7Z" />
+      <path d="M5 19 2 22" />
+    </symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24">
+      <path d="M5 19 6.5 15.5A8 8 0 1 1 10 18.5L5 19Z" />
+      <path d="M9 10h6M9 14h4" />
+    </symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
