@@ -6,7 +6,7 @@ const business = {
   phone: "+52 5573934426",
   whatsappLabel: "+52 5573934426",
   whatsappNumber: "5573934426",
-  address: "Maps: AGP motors, Ciudad de México",
+  address: "AGP motors, Ciudad de México en Maps",
   hours: "Lunes a sábado, 9:00 a.m. a 6:00 p.m.",
   email: "contacto@gfmechanic.com",
   mapsEmbedUrl: "https://www.google.com/maps?q=19.31561,-99.2223238&z=17&output=embed",
