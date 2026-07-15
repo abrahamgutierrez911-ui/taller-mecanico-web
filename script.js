@@ -9,7 +9,7 @@ const business = {
   address: "Av. Principal 123, Ciudad de México",
   hours: "Lunes a sábado, 9:00 a.m. a 6:00 p.m.",
   email: "contacto@gfmechanic.com",
-  mapsEmbedUrl: "https://maps.app.goo.gl/b3TbJbbpMreBMc5m9",
+  mapsEmbedUrl: "https://www.google.com/maps/place/AGP+motors/@19.31561,-99.2223238,17z/data=!3m1!4b1!4m6!3m5!1s0x85cdff1ea1cef9c5:0xa7ae1f385ad5a571!8m2!3d19.31561!4d-99.2223238!16s%2Fg%2F11kz_w8_4f!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcxMy4wIKXMDSoASAFQAw%3D%3D",
   facebook: "https://www.facebook.com/",
   instagram: "https://www.instagram.com/",
   defaultMessage: "Hola, quiero agendar una cita para mi auto."
